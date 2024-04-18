@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SupportKitHJY_Example' do
+  pod 'SupportKitHJY', :path => '../'
+
+  target 'SupportKitHJY_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
