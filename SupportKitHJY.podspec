@@ -41,6 +41,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  # s.dependency 'BaseKitHJY', '~> 0.1.0'
-    s.dependency 'BaseKitHJY', :path => '~/Desktop/CustomKit/BaseKitHJY'
+    s.dependency 'BaseKitHJY', '~> 0.1.0'
+  # s.dependency 'BaseKitHJY', :path => '~/Desktop/CustomKit/BaseKitHJY'
 end
