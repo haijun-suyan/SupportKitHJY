@@ -9,6 +9,6 @@
 #import <BaseKitHJY/BaseKitHJY.h>
 
 @interface SupportTool : NSObject<UnitProtocol>
-
+- (void)testYYY;
 @end
 

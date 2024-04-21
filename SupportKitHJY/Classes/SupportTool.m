@@ -14,6 +14,12 @@
 
 
 @implementation SupportTool
+- (void)testYYY {
+    NSLog(@"%s",__func__);
+}
+
+
+
 - (NSDictionary *)doSomethingWithData:(NSString *)data{
     NSLog(@"%s",__func__);
 
@@ -23,5 +29,7 @@
 
     return dict;
 }
+
+
 
 @end
