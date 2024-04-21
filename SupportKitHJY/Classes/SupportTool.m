@@ -14,7 +14,14 @@
 
 
 @implementation SupportTool
-- (void)phoneCall{
-    NSLog(@"phoneCallphoneCallphoneCallphoneCall");
+- (NSDictionary *)doSomethingWithData:(NSString *)data{
+    NSLog(@"%s",__func__);
+
+    NSLog(@"打印:%@",data);
+
+    NSDictionary *dict = @{@"from":@"SKH",@"content":@"SKH库的数据"};
+
+    return dict;
 }
+
 @end
