@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <BaseKitHJY/UnitProtocol.h>
+#import <BaseKitHJY/BaseKitHJY.h>
 
 @interface SupportTool : NSObject<UnitProtocol>
 
