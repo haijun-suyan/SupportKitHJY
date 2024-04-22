@@ -18,13 +18,13 @@
     self.view.backgroundColor = [UIColor yellowColor];
 
     NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
-    //弱化(操作)
-    [center addObserver:self selector:@selector(sssss) name:@"Notification_GetUserProfileSuccess" object:nil];
+    [center addObserver:self selector:@selector(sssss:) name:@"Notification_Success" object:nil];
 
 }
 
--(void)sssss {
+-(void)sssss:(NSNotification *)info {
     NSLog(@"%s",__func__);
 }
+
 
 @end
